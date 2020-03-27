@@ -1,0 +1,34 @@
+server:
+  http2:
+    enabled: true
+  port: 8088
+spring:
+  #  datasource:
+  #    driver-class-name: com.mysql.cj.jdbc.Driver
+  #    url: jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=utf-8
+  #    name: root
+  #    password: root
+  #    #Hikari连接池的设置
+  #    hikari:
+  #      connection-test-query: SELECT 1
+  #      minimum-idle: 5
+  #      maximum-pool-size: 15
+  #      idle-timeout: 3000
+  #      max-lifetime: 9000
+  #      connection-timeout: 15000
+  cloud:
+    nacos:
+      server-addr:
+  h2:
+    console:
+      enabled: true
+  security:
+    user:
+      name: name
+      password: name
+logging:
+  level:
+    cn.net.uxon.mapper: debug
+mybatis:
+  check-config-location: true
+  config-location: classpath:mybatis-config.xml
