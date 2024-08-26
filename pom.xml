@@ -20,7 +20,7 @@
         <spring-cloud-alibaba.version>2.2.0.RELEASE</spring-cloud-alibaba.version>
         <spring-boot-version>2.2.5.RELEASE</spring-boot-version>
         <mybatis-spring-boot-version>2.1.2</mybatis-spring-boot-version>
-        <springfox.swagger>2.9.2</springfox.swagger>
+        <springfox.swagger>2.10.0</springfox.swagger>
         <spring-restdocs.version>2.0.4.RELEASE</spring-restdocs.version>
     </properties>
 
